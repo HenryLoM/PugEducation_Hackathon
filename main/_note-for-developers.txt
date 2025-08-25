@@ -1,0 +1,8 @@
+cd backend
+uvicorn main:app --reload
+
+npm run dev
+
+cd backend
+sqlite3 project.db
+SELECT * FROM user;
